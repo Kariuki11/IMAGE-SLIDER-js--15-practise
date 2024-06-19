@@ -31,7 +31,9 @@ function showSlide(index){
 
 }
 function prevSlide(){
+    clearInterval(IntervalId);
     slideIndex--;
+    showSlide(slideIndex);
 }
 function nextSlide(){
     slideIndex++;
