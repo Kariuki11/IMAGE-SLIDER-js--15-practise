@@ -31,7 +31,7 @@ function showSlide(index){
 
 }
 function prevSlide(){
-
+    slideIndex--;
 }
 function nextSlide(){
     slideIndex++;
