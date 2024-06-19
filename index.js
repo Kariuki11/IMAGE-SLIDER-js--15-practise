@@ -5,5 +5,14 @@ let slideIndex = 0;
 let slideIntervalId = null;
 
 function initializeSlider(){
+
+}
+function showSlide(index){
+
+}
+function prevSlide(){
+
+}
+function nextSlide(){
     
 }
