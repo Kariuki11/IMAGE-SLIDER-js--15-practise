@@ -22,5 +22,6 @@ function prevSlide(){
 
 }
 function nextSlide(){
-
+    slideIndex++;
+    showSlide
 }
