@@ -9,10 +9,12 @@ document.addEventListener("DOMContentLoaded", initializeSlider)
 
 function initializeSlider(){
 
-    slides[slideIndex].classList.add("displaySlide")
-    IntervalId = setInterval(nextSlide, 5000);
-    console.log(IntervalId);
-}
+    if(slides.length > 0){
+        slides[slideIndex].classList.add("displaySlide")
+        IntervalId = setInterval(nextSlide, 5000);
+    }
+    }
+    
 function showSlide(index){
 
 }
