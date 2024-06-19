@@ -11,3 +11,6 @@
 img.displaySlide{
     display: block;
 }
+.slider button{
+    position: absolute;
+}
