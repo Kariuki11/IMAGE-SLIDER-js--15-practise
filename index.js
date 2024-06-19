@@ -13,7 +13,7 @@ function initializeSlider(){
         slides[slideIndex].classList.add("displaySlide")
         IntervalId = setInterval(nextSlide, 5000);
     }
-    }
+}
     
 function showSlide(index){
 
