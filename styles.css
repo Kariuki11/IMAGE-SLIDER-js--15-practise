@@ -16,8 +16,15 @@ img.displaySlide{
     top: 50%;
     transform: translateY(-50%);
     font-size: 2rem;
+    padding: 10px, 15px;
     background-color: hsla(0, 0%, 0%, 0.5);
     color: #fff;
     border: none;
     cursor: pointer;
+}
+.previous{
+    left: 0;
+}
+.next{
+    right: 0;
 }
